@@ -7,6 +7,7 @@ namespace gl{
                public:
                      string colour;
                      vector<string> rooms;
+		     int ID;
                      Rooms()
                      ~Rooms()
                      void setColour(string input)
