@@ -8,6 +8,7 @@ namespace gl;
  {
     string colour;
     vector<string> rooms;
+    int ID;
     Rooms()
     {}
     ~Rooms()
