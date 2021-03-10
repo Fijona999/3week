@@ -1,3 +1,12 @@
+#include <iostream>
+#include <vector>
+#include "Rooms.h"
+#include <string.>
+
+using namespace gl;
+
+int Rooms::idCount = 0;
+
 int main()
 {
     vector<Rooms>names;
