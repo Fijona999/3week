@@ -1,12 +1,11 @@
 #include <iostream>
 #include <vector>
-#include <string.h>
+#include <string>
+#include <Rooms.h>
 
-using namespace std;
-
-class Rooms
-{
-public:
+namespace gl;
+ Rooms
+ {
     string colour;
     vector<string> rooms;
     Rooms()
