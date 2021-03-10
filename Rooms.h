@@ -2,17 +2,17 @@
 #define ROOMS_H
 #include <stdexcept>
 
-using namespace {
+namespace gl{
            class Rooms {
                public:
                      string colour;
                      vector<string> rooms;
                      Rooms()
-                    ~Rooms()
+                     ~Rooms()
                      void setColour(string input)
-                    string getColour() 
-                    void addRooms(string input)
-                    void printRooms()
+                     string getColour() 
+                     void addRooms(string input)
+                     void printRooms()
   
 	  };
   }
